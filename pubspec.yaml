@@ -1,0 +1,45 @@
+name: jarvis_android
+description: J.A.R.V.I.S. - Just A Rather Very Intelligent System
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # AI & Network
+  http: ^1.1.0
+  
+  # Speech
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  
+  # App control
+  android_intent_plus: ^4.0.0
+  installed_apps: ^1.4.0
+  
+  # Screen & Accessibility
+  flutter_overlay_apps: ^0.1.0
+  permission_handler: ^11.0.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # UI
+  google_fonts: ^6.1.0
+  animated_text_kit: ^4.2.2
+  flutter_animate: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

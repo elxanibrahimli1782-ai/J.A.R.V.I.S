@@ -86,7 +86,7 @@ class JarvisScreen extends StatefulWidget {
 
 class _JarvisScreenState extends State<JarvisScreen> with TickerProviderStateMixin {
   static const _channel = MethodChannel('com.jarvis/system');
-  static const _apiKey = 'YOUR_ANTHROPIC_API_KEY'; // <-- buraya API key
+  static const _apiKey = 'ELXAN_WITH_API'; // <-- buraya API key
 
   final _stt = SpeechToText();
   final _tts = FlutterTts();
